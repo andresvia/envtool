@@ -1,7 +1,7 @@
 language: go
 go:
 - tip
-scripts:
+script:
 - go build
 deploy:
   provider: releases
