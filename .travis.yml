@@ -1,9 +1,6 @@
 language: go
 go:
 - tip
-branches:
-  only:
-  - master
 deploy:
   provider: releases
   api_key:
